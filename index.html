@@ -29,6 +29,7 @@
 					<button
 						class="btn btn-red span-2"
 						id="clearBtn"
+                        data-clear
 						onclick="this.blur();"
 					>
 						CLEAR
@@ -36,6 +37,7 @@
 					<button
 						class="btn btn-blue span-2"
 						id="deleteBtn"
+                        data-delete
 						onclick="this.blur();"
 					>
 						DELETE
@@ -63,7 +65,7 @@
 						6
 					</button>
 					<button class="btn" onclick="this.blur();" data-operator>
-						×
+						x
 					</button>
 
 					<button class="btn" onclick="this.blur();" data-number>
@@ -79,13 +81,13 @@
 						−
 					</button>
 
-					<button class="btn" onclick="this.blur();" id="pointBtn">
+					<button class="btn" onclick="this.blur();" id="pointBtn" data-number>
 						.
 					</button>
 					<button class="btn" onclick="this.blur();" data-number>
 						0
 					</button>
-					<button class="btn" onclick="this.blur();" id="equalsBtn">
+					<button class="btn" onclick="this.blur();" id="equalsBtn" data-equals>
 						=
 					</button>
 					<button class="btn" onclick="this.blur();" data-operator>
